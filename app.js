@@ -16,3 +16,7 @@ cores.push('verde')
         console.log(cores) //saída:  ['amarelo', 'vermelho', 'azul', 'preto']
 
         console.log(cores.length) //saída:  4
+
+        console.log(cores) //saída:  ['amarelo', 'vermelho', 'azul', 'preto', 'verde', ]
+
+// execuções e tratamento de erros 
