@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐦Animals 01</title>
+    <link rel="shortcut icon" href="img/Snake.512.png" type="image/x-icon">
+    <style>
+        body{
+            background-color: black;
+        }
+        /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    text-align: center;
+    margin: 50px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+  figcaption{
+    font-size: 25px;
+    color: #c0c0c0;
+  }
+  h1{
+    color: white;
+    margin: 6%;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: -12px 13px 14px #F33B02;
+  }
+  h3{
+    color: wheat;
+    margin: 5% ;
+  }
+    </style>
+</head>
+<body>
+    <h1>Animals.</h1>
+    <div class="row">
+        <div class="column">
+          <img src="Animals 1/Ergosign-World-Animal-Zebra.256.png"  alt="Snow" style="width:25%">
+          <figcaption>Animals(Ergosign-World-Animal-Zebra)</figcaption>
+        </div>
+        <div class="column">
+          <img src="Animals 1/Iconarchive-Dog-Breed-Bernese-Mountain-Dog.512.png" alt="Forest" style="width:35%">
+          <figcaption>Animals(Iconarchive-Dog-Breed-Bernese-Mountain-Dog)</figcaption>
+        </div>
+        <div class="column">
+          <img src="Animals 1/Joker-Design-Circus-Elephant.256.png" alt="Mountains" style="width:25%">
+          <figcaption>Animals(Joker-Design-Circus-Elephant)</figcaption>
+        </div>
+      </div>
+      <h3>&#169;Por Edilson. 2023</h3>
+  
+</body>
+</html>
